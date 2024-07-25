@@ -1,0 +1,24 @@
+{
+    "list": [
+        {
+            "image": "/img/image.jpg",
+            "tooltip": "This is a tooltip! <br> Heres a second line!",
+            "alt": "Alt text goes here"
+        },
+        {
+            "image": "/img/image.jpg",
+            "tooltip": "This is a tooltip! <br> Heres a second line!",
+            "alt": "Alt text goes here"
+        },
+        {
+            "image": "/img/image.jpg",
+            "tooltip": "This is a tooltip! <br> Heres a second line!",
+            "alt": "Alt text goes here"
+        },
+        {
+            "image": "/img/image.jpg",
+            "tooltip": "This is a tooltip! <br> Heres a second line!",
+            "alt": "Alt text goes here"
+        }
+    ]
+}
