@@ -5,6 +5,7 @@ An easy to use list generator for your website
 * Add magilist.js to your project anywhere you'd like
 * open magilist.js and edit the user elements to fit your needs
 * Style to your needs!
+* its reccomended to keep list.json in the project root but it can be moved under advanced elements
 
 ## Current HTML Layout
 majilist generates its lists in one set way at the moment
