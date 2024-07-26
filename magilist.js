@@ -53,7 +53,7 @@ fetch(filePath)
                     div.appendChild(img);
                     const tooltip = document.createElement(tooltipTag);
                     tooltip.classList.add(tooltipClassName);
-                    tooltip.textContent = item.tooltip;
+                    tooltip.innerHTML = item.tooltip;
                     tooltip.style.display = 'none';
                     div.appendChild(tooltip);
                     parentContainer.appendChild(div);
