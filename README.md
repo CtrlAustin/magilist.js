@@ -9,7 +9,7 @@ An easy to use multi-list generator for your website
 * you can now add more lists by creating divs with the id of the list name!
 
 ## Current HTML Layout
-majilist generates its lists in one set way at the moment
+magilist generates its lists in one set way at the moment
 heres an example using all of the defailt values
 ```HTML
 <div class="itemWrapper">
