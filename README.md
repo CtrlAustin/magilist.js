@@ -40,5 +40,7 @@ variable names are in parenthesis
 ```
 
 ## CSS elements for styling:
+
 `.itemWrapper` - the default class name for the wrapper around each list item
+
 `.tooltip` - Styling for the tooltip, this is a standard `<p>` tag
