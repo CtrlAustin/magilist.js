@@ -26,3 +26,16 @@ variable names are in parenthesis
   <(tooltipTag) (customDataTooltip) class="(tooltipClassName)"></p>
 </div>
 ```
+
+Bare minimum html document to get magilist working
+```HTML
+<html>
+<head>
+    <title>Magilist</title>
+</head>
+<body>
+    <div id="list1"></div>
+    <script src="magilist.js"></script>
+</body>
+</html>
+```
