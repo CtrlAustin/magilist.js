@@ -1,12 +1,12 @@
 // ###########################################################
-// # magilist.js v1.0 beta                                   #
+// # magilist.js v1.3 beta                                   #
 // # This is a fork of magilog for a more general use        #
 // # created by CtrlAustin                                   #
 // # Distributed under the GPL3 Licence                      #
 // ###########################################################
 
 // user elements:
-const showTooltips = true;                           // Show ro hide tooltips
+const showTooltips = true;                           // Show or hide tooltips
 const tooltipClassName = 'tooltip';                  // The class that the tooltip has
 const tooltipOffsetX = 10;                           // Offsets for the tooltip
 const tooltipOffsetY = 10;
@@ -14,7 +14,7 @@ const tooltipOffsetY = 10;
 // advanced elements:
 const listFilePath = 'list.json';                    // The path to yout JSON file including the file name
 const tooltipTag = 'p';                              // The tag that the tooltip uses
-const itemTag = 'div';                               // The tag that every item has in the list
+const itemTag = 'div';                               // The tag that every item has in the list set this to 'a' for link support
 const itemWrapperClass = 'itemWrapper'               // The class name of each item
 const customDataImg = '';                            // If you want to add custom data to the tooltip like an id
 const customDataTooltip = '';                        // If you want to add custom data to the tooltip 
@@ -35,6 +35,9 @@ fetch(filePath)
                 list.items.forEach(item => {
                     const div = document.createElement(itemTag);
                     div.classList.add(itemWrapperClass);
+                    if (itemTag == 'a') {
+                        div.href = item.link;
+                    }
                     const img = document.createElement('img');
                     img.src = item.image;
                     img.alt = item.alt;
