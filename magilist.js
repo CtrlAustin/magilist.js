@@ -12,7 +12,7 @@ const tooltipOffsetX = 10;                           // Offsets for the tooltip
 const tooltipOffsetY = 10;
 
 // advanced elements:
-const listFilePath = 'list.json';                    // The path to yout JSON file including the file name
+const listFilePath = '/list.json';                    // The path to yout JSON file including the file name
 const tooltipTag = 'p';                              // The tag that the tooltip uses
 const itemTag = 'div';                               // The tag that every item has in the list set this to 'a' for link support
 const itemWrapperClass = 'itemWrapper'               // The class name of each item

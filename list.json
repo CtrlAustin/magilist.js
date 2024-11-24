@@ -4,19 +4,19 @@
             "name": "list1",
             "items": [
                 {
-                    "image": "/img/image.jpg",
+                    "image": "https://ctrlaustin.nekoweb.org/img/button1.gif",
                     "alt": "Alt text goes here",
                     "tooltip": "This is a tooltip! <br> Heres a second line! 1 1/2",
                     "link": "https://github.com/CtrlAustin/magilist.js"
                 },
                 {
-                    "image": "/img/image.jpg",
+                    "image": "https://ctrlaustin.nekoweb.org/img/button1.gif",
                     "alt": "Alt text goes here",
                     "tooltip": "This is a tooltip! <br> Heres a second line! 1 2/2",
                     "link": "https://github.com/CtrlAustin/magilist.js"
                 },
                 {
-                    "image": "/img/image.jpg",
+                    "image": "https://ctrlaustin.nekoweb.org/img/button1.gif",
                     "alt": "Alt text goes here",
                     "tooltip": "This is a tooltip! <br> Heres a second line! 1 2/2",
                     "link": "https://github.com/CtrlAustin/magilist.js"
